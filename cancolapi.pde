@@ -61,7 +61,7 @@ void draw(){
     }else{
       if(player.pos.y < 12){
         fill(0, 255, 0);
-        gameMessage("YOU WON");
+        gameMessage("YOU WIN");
       }else{
         map.display();
         inventory.display();
@@ -160,7 +160,6 @@ void keyPressed() {
               break;
               case 6:
                 //bone
-                
               break;
               case 7:
                 //ouija

@@ -4,7 +4,6 @@ class map{
   int [][] tMap;
   PImage [] tile;
   
-  
   map(){
     this.size = 22;
     this.tileSize = 32;
